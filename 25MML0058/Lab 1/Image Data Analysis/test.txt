@@ -2,7 +2,7 @@
 !pip install opendatasets
 
 import opendatasets as od
-dataset_url = 'https://www.kaggle.com/datasets/likhon148/animal-data' # Replace with your dataset URL
+dataset_url = 'https://www.kaggle.com/datasets/likhon148/animal-data' 
 od.download(dataset_url)
 
 import os
